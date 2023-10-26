@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+
+button,h1,p,h2,h3,h4,h5,h6 {
+    font-family: "press Start 2P";
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 190px;
+    height: 60px;
+    font-size: 30px;
+}
+
+#box1 {
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin-left: 45%;
+    font-size: 100px;
+}
+
+#box2 {
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin-left: 45%;
+    font-size: 100px;
+}
+
+.again {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+main input {
+    height: 60px;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
